@@ -1,0 +1,23 @@
+PODS:
+  - HandyJSON (5.0.1)
+  - RongCloudIM/IMKit (2.10.4):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.10.4)
+
+DEPENDENCIES:
+  - HandyJSON (= 5.0.1)
+  - RongCloudIM/IMKit (= 2.10.4)
+  - RongCloudIM/IMLib (= 2.10.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HandyJSON
+    - RongCloudIM
+
+SPEC CHECKSUMS:
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  RongCloudIM: 741d6f0e655b8fd77c63ee34071d4f9bf146aae6
+
+PODFILE CHECKSUM: 1f17ff19d09d336cae5a8302d260d96aa0144a1c
+
+COCOAPODS: 1.6.0.beta.2

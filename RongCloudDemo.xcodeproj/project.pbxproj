@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402B204124446F7400895C18 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B204024446F7400895C18 /* TestViewController.swift */; };
+		40F9C3972137BC240052DFE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3962137BC240052DFE7 /* AppDelegate.swift */; };
+		40F9C3992137BC240052DFE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3982137BC240052DFE7 /* ViewController.swift */; };
+		40F9C39C2137BC240052DFE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C39A2137BC240052DFE7 /* Main.storyboard */; };
+		40F9C39E2137BC250052DFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C39D2137BC250052DFE7 /* Assets.xcassets */; };
+		40F9C3A12137BC250052DFE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C39F2137BC250052DFE7 /* LaunchScreen.storyboard */; };
+		40F9C3AD2137BF3E0052DFE7 /* TIMNotiMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3AB2137BF380052DFE7 /* TIMNotiMessage.swift */; };
+		40F9C3AE2137BF3E0052DFE7 /* TIMNotiMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3AC2137BF3E0052DFE7 /* TIMNotiMessageCell.swift */; };
+		40F9C3B12137C2140052DFE7 /* TIMConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3AF2137C2140052DFE7 /* TIMConversationViewController.swift */; };
+		40F9C3B22137C2140052DFE7 /* TIMConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3B02137C2140052DFE7 /* TIMConversationListViewController.swift */; };
+		A0C0BD0FB86A9BC03E3654E2 /* Pods_RongCloudDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB69E500F13EBD005DF11B4E /* Pods_RongCloudDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		402B204024446F7400895C18 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		40F9C3932137BC240052DFE7 /* RongCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F9C3962137BC240052DFE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F9C3982137BC240052DFE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40F9C39B2137BC240052DFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F9C39D2137BC250052DFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F9C3A02137BC250052DFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F9C3A22137BC250052DFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F9C3AA2137BE430052DFE7 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		40F9C3AB2137BF380052DFE7 /* TIMNotiMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMNotiMessage.swift; sourceTree = "<group>"; };
+		40F9C3AC2137BF3E0052DFE7 /* TIMNotiMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMNotiMessageCell.swift; sourceTree = "<group>"; };
+		40F9C3AF2137C2140052DFE7 /* TIMConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMConversationViewController.swift; sourceTree = "<group>"; };
+		40F9C3B02137C2140052DFE7 /* TIMConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMConversationListViewController.swift; sourceTree = "<group>"; };
+		C7A4256B27AB17A8919DB75C /* Pods-RongCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DB69E500F13EBD005DF11B4E /* Pods_RongCloudDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RongCloudDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3904609DD73548C4510DEFC /* Pods-RongCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F9C3902137BC240052DFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C0BD0FB86A9BC03E3654E2 /* Pods_RongCloudDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F9C38A2137BC240052DFE7 = {
+			isa = PBXGroup;
+			children = (
+				40F9C3952137BC240052DFE7 /* RongCloudDemo */,
+				40F9C3942137BC240052DFE7 /* Products */,
+				E4F0EF5880AD34F9B53E7BE3 /* Pods */,
+				F48C0AACEF0168AA154DE95F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40F9C3942137BC240052DFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3932137BC240052DFE7 /* RongCloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F9C3952137BC240052DFE7 /* RongCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3962137BC240052DFE7 /* AppDelegate.swift */,
+				40F9C3982137BC240052DFE7 /* ViewController.swift */,
+				40F9C3AB2137BF380052DFE7 /* TIMNotiMessage.swift */,
+				40F9C3AC2137BF3E0052DFE7 /* TIMNotiMessageCell.swift */,
+				40F9C3B02137C2140052DFE7 /* TIMConversationListViewController.swift */,
+				40F9C3AF2137C2140052DFE7 /* TIMConversationViewController.swift */,
+				402B204024446F7400895C18 /* TestViewController.swift */,
+				40F9C39A2137BC240052DFE7 /* Main.storyboard */,
+				40F9C39D2137BC250052DFE7 /* Assets.xcassets */,
+				40F9C39F2137BC250052DFE7 /* LaunchScreen.storyboard */,
+				40F9C3A22137BC250052DFE7 /* Info.plist */,
+				40F9C3AA2137BE430052DFE7 /* Bridging-Header.h */,
+			);
+			path = RongCloudDemo;
+			sourceTree = "<group>";
+		};
+		E4F0EF5880AD34F9B53E7BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A4256B27AB17A8919DB75C /* Pods-RongCloudDemo.debug.xcconfig */,
+				F3904609DD73548C4510DEFC /* Pods-RongCloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F48C0AACEF0168AA154DE95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB69E500F13EBD005DF11B4E /* Pods_RongCloudDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F9C3922137BC240052DFE7 /* RongCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9C3A52137BC250052DFE7 /* Build configuration list for PBXNativeTarget "RongCloudDemo" */;
+			buildPhases = (
+				D46FEDEC8A6E26D1989B921E /* [CP] Check Pods Manifest.lock */,
+				40F9C38F2137BC240052DFE7 /* Sources */,
+				40F9C3902137BC240052DFE7 /* Frameworks */,
+				40F9C3912137BC240052DFE7 /* Resources */,
+				E6CAB8199F8792DA2B117924 /* [CP] Copy Pods Resources */,
+				87E20ABB99EE995BAB682E22 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudDemo;
+			productName = RongCloudDemo;
+			productReference = 40F9C3932137BC240052DFE7 /* RongCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F9C38B2137BC240052DFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = joakim.liu;
+				TargetAttributes = {
+					40F9C3922137BC240052DFE7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 40F9C38E2137BC240052DFE7 /* Build configuration list for PBXProject "RongCloudDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F9C38A2137BC240052DFE7;
+			productRefGroup = 40F9C3942137BC240052DFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F9C3922137BC240052DFE7 /* RongCloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F9C3912137BC240052DFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3A12137BC250052DFE7 /* LaunchScreen.storyboard in Resources */,
+				40F9C39E2137BC250052DFE7 /* Assets.xcassets in Resources */,
+				40F9C39C2137BC240052DFE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87E20ABB99EE995BAB682E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46FEDEC8A6E26D1989B921E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RongCloudDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CAB8199F8792DA2B117924 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCColor.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F9C38F2137BC240052DFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402B204124446F7400895C18 /* TestViewController.swift in Sources */,
+				40F9C3B12137C2140052DFE7 /* TIMConversationViewController.swift in Sources */,
+				40F9C3AE2137BF3E0052DFE7 /* TIMNotiMessageCell.swift in Sources */,
+				40F9C3B22137C2140052DFE7 /* TIMConversationListViewController.swift in Sources */,
+				40F9C3992137BC240052DFE7 /* ViewController.swift in Sources */,
+				40F9C3972137BC240052DFE7 /* AppDelegate.swift in Sources */,
+				40F9C3AD2137BF3E0052DFE7 /* TIMNotiMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40F9C39A2137BC240052DFE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F9C39B2137BC240052DFE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F9C39F2137BC250052DFE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F9C3A02137BC250052DFE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F9C3A32137BC250052DFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40F9C3A42137BC250052DFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F9C3A62137BC250052DFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A4256B27AB17A8919DB75C /* Pods-RongCloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2L3993CXH;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RongCloudDemo/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		40F9C3A72137BC250052DFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3904609DD73548C4510DEFC /* Pods-RongCloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2L3993CXH;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RongCloudDemo/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F9C38E2137BC240052DFE7 /* Build configuration list for PBXProject "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3A32137BC250052DFE7 /* Debug */,
+				40F9C3A42137BC250052DFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9C3A52137BC250052DFE7 /* Build configuration list for PBXNativeTarget "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3A62137BC250052DFE7 /* Debug */,
+				40F9C3A72137BC250052DFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F9C38B2137BC240052DFE7 /* Project object */;
+}

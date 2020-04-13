@@ -1,0 +1,6 @@
+framework module Pods_RongCloudDemo {
+  umbrella header "Pods-RongCloudDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
